@@ -1,0 +1,287 @@
+Microsoft Windows [Version 10.0.17763.737]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+===========
+1. perintah cd
+===========
+C:\Users\dariyanti>cd/d E:\praxis-academy
+
+===========
+2. perintah mkdir
+===========
+E:\praxis-academy>mkdir kemampuan-dasar
+
+===========
+3. perintah dir
+===========
+E:\praxis-academy>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy
+
+19/10/2019  10:41    <DIR>          .
+19/10/2019  10:41    <DIR>          ..
+19/10/2019  10:41    <DIR>          kemampuan-dasar
+               0 File(s)              0 bytes
+               3 Dir(s)  315.935.895.552 bytes free
+
+E:\praxis-academy>cd kemampuan-dasar
+
+E:\praxis-academy\kemampuan-dasar>mkdir kemampuan-dasar-1
+
+E:\praxis-academy\kemampuan-dasar>cd kemampuan-dasar-1
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1>mkdir latihan
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1>cd latihan
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>mkdir powershellscripts
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+19/10/2019  10:47    <DIR>          .
+19/10/2019  10:47    <DIR>          ..
+19/10/2019  10:47    <DIR>          powershellscripts
+               0 File(s)              0 bytes
+               3 Dir(s)  315.935.895.552 bytes free
+
+===========
+4. perintah ren
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>ren powershellscripts powershell
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+19/10/2019  10:49    <DIR>          .
+19/10/2019  10:49    <DIR>          ..
+19/10/2019  10:47    <DIR>          powershell
+               0 File(s)              0 bytes
+               3 Dir(s)  315.935.895.552 bytes free
+
+===========
+5. perintah copy
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>copy "D:\Yanti Foto\Camera Fuji\DSCF5163.jpg" .
+        1 file(s) copied.
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+19/10/2019  10:57    <DIR>          .
+19/10/2019  10:57    <DIR>          ..
+08/06/2019  18:41         3.858.203 DSCF5163.JPG
+19/10/2019  10:47    <DIR>          powershell
+               1 File(s)      3.858.203 bytes
+               3 Dir(s)  315.932.037.120 bytes free
+
+===========
+6. perintah xcopy
+===========
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>xcopy /s /i D:\coba coba
+D:\coba\Lamaran Admin.pdf
+D:\coba\Lamaran Digital Marketing.pdf
+2 File(s) copied
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir coba
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\coba
+
+19/10/2019  11:19    <DIR>          .
+19/10/2019  11:19    <DIR>          ..
+18/10/2019  19:32             6.538 Lamaran Admin.pdf
+18/10/2019  19:52         1.130.155 Lamaran Digital Marketing.pdf
+               2 File(s)      1.136.693 bytes
+               2 Dir(s)  315.934.232.576 bytes free
+
+===========
+7. perintah del
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>del coba
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\coba\*, Are you sure (Y/N)? y
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir coba
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\coba
+
+19/10/2019  11:17    <DIR>          .
+19/10/2019  11:17    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  315.935.371.264 bytes free
+
+===========
+8. perintah rd
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>rd coba
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+19/10/2019  10:47    <DIR>          powershell
+               0 File(s)              0 bytes
+               1 Dir(s)  315.935.371.264 bytes free
+
+Microsoft Windows [Version 10.0.17763.737]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+===========
+9. perintah move
+===========
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>move "d:\test\Lamaran Admin.pdf"
+        1 file(s) moved.
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+18/10/2019  19:32             6.538 Lamaran Admin.pdf
+19/10/2019  10:47    <DIR>          powershell
+               1 File(s)          6.538 bytes
+               1 Dir(s)  315.935.354.880 bytes free
+
+===========
+10. perintah date
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>date /t
+19/10/2019
+
+===========
+11. perintah echo
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>echo
+ECHO is on.
+
+===========
+12. perintah find
+===========
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>find /i /c "dariyanti" "Lamaran Admin.pdf"
+
+---------- LAMARAN ADMIN.PDF: 1
+
+===========
+13. perintah color
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>color fc
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>color 85
+
+===========
+14. perintah ipconfig
+===========
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::5d00:b33a:8adb:c804%2
+   IPv4 Address. . . . . . . . . . . : 192.168.2.28
+   Subnet Mask . . . . . . . . . . . : 255.255.255.128
+   Default Gateway . . . . . . . . . : 192.168.2.1
+
+Ethernet adapter Bluetooth Network Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+===========
+15. perintah ping
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+===========
+16. perintah assoc
+===========
+
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>assoc .doc
+.doc=Word.Document.8
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>assoc
+.001=WinRAR
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3gpp=WMP11.AssocFile.3GP
+.7z=WinRAR
+
+===========
+17. perintah attrib
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>attrib
+A                    E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan\Lamaran Admin.pdf
+
+
+===========
+18. perintah clip
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>dir | clip
+ Volume in drive E is Projects
+ Volume Serial Number is 0CD6-3EB3
+
+ Directory of E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan
+
+18/10/2019  19:32             6.538 Lamaran Admin.pdf
+18/10/2019  19:52         1.130.155 Lamaran Digital Marketing.pdf
+19/10/2019  10:47    <DIR>          powershell
+               2 File(s)      1.136.693 bytes
+               1 Dir(s)  315.934.224.384 bytes free
+
+
+===========
+19. perintah exit 
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>exit
+
+===========
+20. perintah cls 
+===========
+E:\praxis-academy\kemampuan-dasar\kemampuan-dasar-1\latihan>cls
